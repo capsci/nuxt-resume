@@ -114,7 +114,7 @@ export default {
   },
   head() {
     return {
-      title: "Iván Greve",
+      title: "Kapil Somani",
     };
   },
   methods: {

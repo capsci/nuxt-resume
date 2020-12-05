@@ -8,40 +8,38 @@
     "projects": "Projects"
   },
   "personalInfo": {
-    "name": "Iván",
-    "lastName": "Greve",
+    "name": "Kapil",
+    "lastName": "Somani",
     "subHeadingText": [
-      "Software Enginneer",
-      "Full Stack Developer",
-      "Code enthusiast!"
+      "Software Developer",
+      "Learner",
+      "Tech enthusiast!"
     ],
-    "city": "Buenos Aires, Argentina",
-    "phoneNumber": "+54 - 6766-9851",
-    "email": "ivangreve@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/ivan-greve/",
-    "github": "https://github.com/ivangreve/",
-    "myDescription": "Passionate web developer, making useful application using the latest technologies!"
+    "city": "Natick, MA",
+    "phoneNumber": "+1 919-985 5701",
+    "email": "kmsomani@ncsu.com",
+    "linkedin": "https://www.linkedin.com/in/kapilsomani/",
+    "github": "https://github.com/capsci/",
+    "myDescription": "Still fascinated by technology and amazed on it's impact on everyone"
   },
   "educationDegrees": {
     "title": "Education 📕",
     "degrees": [
       {
-        "collage": "University of La Matanza",
-        "name": "Engineer Degree",
-        "itemList": ["Computer Science"],
-        "startEndDate": "March 2013 - December 2018"
+        "collage": "North Carolina State University",
+        "name": "Masters Degree",
+        "itemList": [
+          "Computer Science"
+        ],
+        "startEndDate": "August 2014 - December 2015"
       },
       {
-        "collage": "University of La Matanza",
-        "name": "Software Engineering Technician",
-        "itemList": ["Computer Science"],
-        "startEndDate": "March 2013 - December 2016"
-      },
-      {
-        "collage": "Instituto Madero",
-        "name": "Electronic technician",
-        "itemList": ["Electronic"],
-        "startEndDate": "March 2007 - December 2012"
+        "collage": "Maharastra Institute of Technology",
+        "name": "Bachelors Degree",
+        "itemList": [
+          "Information Technology"
+        ],
+        "startEndDate": "August 2008 - June 2012"
       }
     ]
   },
@@ -49,27 +47,47 @@
     "title": "Work Expecience 🔨",
     "works": [
       {
-        "position": "Software Engineer / FullStack Developer",
-        "companie": "Axum - Smart Solutions",
+        "position": "Software Engineer",
+        "companie": "The Mathworks",
         "responsabilities": [
-          "Responsible for designing, developing and maintaining a group of applications used in the retail industry by multinational companies as Pepsico, Unilever, Quilmes, etc.",
-          "Web Team leader, I take technical decisions about which technologies use in each project and how the team will works.",
-          "Backend Developer: .NET Core | .NET Framework | NodeJs | MSSQL | PostgreSQL | MongoDB.",
-          "Frontend Developer: VueJs | ReactJs | Javascript | JQuery.",
-          "Desktop Applications: .NET Windows Form Applications."
+          "Designed and implemented REST interface and updated clients for a legacy RMI server",
+          "Help triage and fix multiple bugs to increase stability and accuracy of Build and Test system at Mathworks",
+          "Designed GoLang tooling for mass transition of Perforce depots to Git SCM system; while ensuring the backend components are configured correctly",
+          "Worked on multiple enhacements to provide new features for job scheduler DAG"
         ],
-        "startEndDate": "November 2017 - Present"
+        "startEndDate": "May 2019 - Present"
       },
       {
-        "position": "Technical Administrator",
-        "companie": "Metalurgica Vezeta",
+        "position": "Quality Engineer",
+        "companie": "The Mathworks",
         "responsabilities": [
-          "Responsible for web ecommerce designing and maintaining.",
-          "Graphic design (Adobe Photoshop and Adobe Illustrator).",
-          "Technical support.",
-          "Improve business processes."
+          "Responsible for designing test-plans and automated tests for Mathworks continuous build and integration system’s development and workflows.",
+          "Collaborating with cross functional teams to improve processes and helping debug system issues, working for core infrastructure of building, testing, and releasing of all MathWorks products.",
+          "Developing scripts, tools and processes to create and maintain test environments for multiple components.",
+          "Mentoring junior engineers to help transition into team and train them on component responsibilities and tasks."
         ],
-        "startEndDate": "March 2014 - October 2017"
+        "startEndDate": "Feb 2016 - May 2019"
+      },
+      {
+        "position": "Technology Intern",
+        "companie": "Rho Inc",
+        "responsabilities": [
+          "Was primarily responsible to dynamically generate new graphs and charts; using javascript libraries; to help researchers and analysts to quickly visualize patterns and spot outliers in collected data.",
+          "Designed templates for new type of charts providing greater interactivity and flexibility with an ability to generate reports.",
+          "Extensively used D3.js and require.js to render data and load modules in necessary order."
+        ],
+        "startEndDate": "Jul 2015 - Aug 2015"
+      },
+      {
+        "position": "Associate Software Developer",
+        "companie": "Accenture Services Pvt.Ltd.",
+        "responsabilities": [
+          "Proactively identified areas where efficiencies could be introduced and took initiative to automate manual tasks, using TIBCO BW automations and various VBScripts.",
+          "Increased team’s efficiency, preventing scope for inaccuracies by restructuring and optimized way of getting jobs done. Was recognized and awarded from the employer company regarding the same.",
+          "Achieved 'Rising Star Award' at Accenture Stellar Awards - 2013 (Q2).",
+          "Responsibilities included interacting with clients, framing SQL queries for CRM database maintenance tasks."
+        ],
+        "startEndDate": "Nov 2012 - March 2014"
       }
     ]
   },
@@ -77,69 +95,31 @@
     "title": "Skills 🎯",
     "iconsTitle": "Programming Languages & Tools",
     "devIcons": [
-      "devicon-csharp-plain",
       "devicon-javascript-plain",
-      "devicon-html5-plain-wordmark",
-      "devicon-css3-plain-wordmark",
       "devicon-git-plain",
       "devicon-nodejs-plain",
       "devicon-bootstrap-plain",
       "devicon-github-original",
-      "devicon-bitbucket-original-wordmark",
-      "devicon-dot-net-original-wordmark",
       "devicon-jquery-plain-wordmark",
       "devicon-linux-plain",
-      "devicon-windows8-original",
-      "devicon-illustrator-plain",
-      "devicon-photoshop-plain",
-      "devicon-react-original",
       "devicon-visualstudio-plain",
-      "devicon-dot-net-plain",
-      "devicon-vuejs-plain",
-      "devicon-postgresql-plain"
+      "devicon-vuejs-plain"
     ],
     "workflow": "Workflow",
     "itemList": [
-      "Responsive Design & UX",
-      "Cross Browser Testing & Debugging",
       "REST API building",
       "Agile Development & Scrum",
-      "Team working",
+      "Team Player",
       "Design Patterns"
     ]
   },
   "interests": {
     "title": "Hobbies 😄",
-    "firstBlock": "Apart from being a web developer, I enjoy most of my time listening and playing music. I love playing piano and singing in my spare time!. 🎹🎵",
-    "secondBlock": "I spend a large amount of my free time exploring the latest technolgy advancements in the frontend and backend web technology development world and coding in my personal projects! 🙌👨‍💻"
+    "firstBlock": "Apart from being a on computer, I enjoy video editing 🎥🎵",
+    "secondBlock": "I spend a large amount of my free time exploring the latest advancements in technology development world and coding in my personal projects! 🙌👨‍💻"
   },
   "projects": {
     "title": "Personal Projects 🦾🧠",
-    "projectsInfo": [
-      {
-        "name": "Kelawar",
-        "description": "Kelawar is a Big Data + IoT project. Which through masive recollections of data, we provide useful information about the clients behavior. ",
-        "image": "/images/kelawar.jpg",
-        "siteUrl": "https://kelawar.com/"
-      },
-      {
-        "name": "Docuisy",
-        "description": "Docuisy is a Wiki, generator based on .md files",
-        "image": "/images/docuisy.png",
-        "siteUrl": "https://github.com/ivangreve/docuisy"
-      },
-      {
-        "name": "Better Drive",
-        "description": "Better Drive is a free tool to analyze your Google Drive account. Google Drive is a powerful file storage and synchronization service, but sometimes you feel like you lose control of it. Keeping privacy concerns in mind, that many users have, we built this great tool to help you organize, clean, and leverage the use of your Google Drive.",
-        "image": "/images/better-drive.png",
-        "siteUrl": "https://betterdrive.app/"
-      },
-      {
-        "name": "Resume Nuxt Template",
-        "description": "I made a simple and customizable template with nuxt and multilanguage support (i18n)",
-        "image": "/images/resumenuxt.jpg",
-        "siteUrl": "https://github.com/ivangreve/nuxt-resume"
-      }
-    ]
+    "projectsInfo": []
   }
 }
