@@ -32,7 +32,7 @@
               class="nav-link js-scroll-trigger"
               @click="jumpTo('#about')"
               href="#"
-              >{{ $t('links.about') }}</a
+              >{{ $t("links.about") }}</a
             >
           </li>
           <li class="nav-item">
@@ -40,7 +40,7 @@
               class="nav-link js-scroll-trigger"
               @click="jumpTo('#education')"
               href="#"
-              >{{ $t('links.education') }}</a
+              >{{ $t("links.education") }}</a
             >
           </li>
           <li class="nav-item">
@@ -48,7 +48,7 @@
               class="nav-link js-scroll-trigger"
               @click="jumpTo('#experience')"
               href="#"
-              >{{ $t('links.experience') }}</a
+              >{{ $t("links.experience") }}</a
             >
           </li>
           <li class="nav-item">
@@ -56,7 +56,7 @@
               class="nav-link js-scroll-trigger"
               @click="jumpTo('#skills')"
               href="#"
-              >{{ $t('links.skills') }}</a
+              >{{ $t("links.skills") }}</a
             >
           </li>
           <li class="nav-item">
@@ -64,7 +64,7 @@
               class="nav-link js-scroll-trigger"
               @click="jumpTo('#interests')"
               href="#"
-              >{{ $t('links.interests') }}</a
+              >{{ $t("links.interests") }}</a
             >
           </li>
           <li class="nav-item">
@@ -72,15 +72,17 @@
               class="nav-link js-scroll-trigger"
               @click="jumpTo('#projects')"
               href="#"
-              >{{ $t('links.projects') }}</a
+              >{{ $t("links.projects") }}</a
             >
           </li>
           <li class="nav-item">
-            <div style="position:fixed; bottom:10px; left:10px; z-index:1000;">
+            <div
+              style="position: fixed; bottom: 10px; left: 10px; z-index: 1000"
+            >
               <!--DarkModeBtn /-->
             </div>
           </li>
-          <li class="nav-item">
+          <!--li class="nav-item">
             <div style="position:fixed; bottom:10px; right: 10px;z-index:1000;">
               <nuxt-link class="btn btn-light" :to="switchLocalePath('en')"
                 >EN</nuxt-link
@@ -89,7 +91,7 @@
                 >ES</nuxt-link
               >
             </div>
-          </li>
+          </li-->
         </ul>
       </div>
     </nav>
@@ -108,18 +110,18 @@ import jump from "jump.js";
 export default {
   components: {
     Resume,
-    DarkModeBtn
+    DarkModeBtn,
   },
   head() {
     return {
-      title: "Iván Greve"
+      title: "Iván Greve",
     };
   },
   methods: {
     jumpTo(element) {
       jump(element);
-    }
-  }
+    },
+  },
 };
 </script>
 
