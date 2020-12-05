@@ -77,7 +77,7 @@
           </li>
           <li class="nav-item">
             <div style="position:fixed; bottom:10px; left:10px; z-index:1000;">
-              <DarkModeBtn />
+              <!--DarkModeBtn /-->
             </div>
           </li>
           <li class="nav-item">
